@@ -3,15 +3,51 @@ body {
 	margin: 0px;
 }
 
+h1 {
+	font-family: lato, sans-serif;
+	font-size: 40px;
+    font-weight: 300;
+    color: #CCDB38;
+    text-decoration:none;
+}
+
+a {
+	font-family: lato, sans-serif;
+	font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+    color: #bbb;
+    text-decoration:none;
+}
+
+a:hover {
+	font-family: lato, sans-serif;
+	font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+    color: #CCDB38;
+}
+
+div.Logo {
+    background: url('../images/T1mINClogo.png') no-repeat;
+    background-size: 200px 65px;
+    width: 200px;
+    height: 80px;
+    padding: 10px;
+    float: left;
+}
+
 div.ContainerTop {
-	width: 1024px;
-	height: 80px;
-	background: #fff;
-	margin: 0px auto;
-	border-right: 1px #bbb solid;
-	border-left: 1px #bbb solid;
-	border-bottom: 1px #bbb solid;
-	box-shadow: 0px 0px 10px 0px #ccc;
+    width: 995px;
+    height: 80px;
+    background: #fff;
+    margin: 0px auto;
+    padding: 10px;
+    padding-left: 25px;
+    border-right: 1px #bbb solid;
+    border-left: 1px #bbb solid;
+    border-bottom: 1px #bbb solid;
+    box-shadow: 0px 0px 10px 0px #ccc;
 }
 div.ContainerMidden {
 	width: 1024px;
@@ -23,9 +59,10 @@ div.ContainerMidden {
 }
 
 div.Navigation {
-	width: 985px;
+	width: 620px;
 	height: 20px;
 	padding: 25px 20px;
+	float: right;
 }
 
 div.Content {
