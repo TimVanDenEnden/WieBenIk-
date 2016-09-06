@@ -1,26 +1,38 @@
 body {
 	background: #eee;
 	margin: 0px;
+	font-family: lato, sans-serif;
+	color: #777;
 }
 
-h1 {
+h1.Title {
 	font-family: lato, sans-serif;
-	font-size: 40px;
+	font-size: 35px;
     font-weight: 300;
     color: #CCDB38;
     text-decoration:none;
+
 }
 
-a {
+h3.Title {
+	font-family: lato, sans-serif;
+	font-size: 25px;
+    font-weight: 300;
+    color: #CCDB38;
+    text-decoration:none;
+    margin-bottom: 5px;
+}
+
+a.Navigation {
 	font-family: lato, sans-serif;
 	font-size: 20px;
     font-weight: 300;
     padding: 10px;
-    color: #bbb;
+    color: #777;
     text-decoration:none;
 }
 
-a:hover {
+a.Navigation:hover {
 	font-family: lato, sans-serif;
 	font-size: 20px;
     font-weight: 300;
@@ -58,6 +70,15 @@ div.ContainerMidden {
 	box-shadow: 0px 0px 10px 0px #ccc;
 }
 
+div.ContainerMidden2 {
+	width: 1024px;
+	height: 1550px;
+	background: #fff;
+	margin: 60px auto;
+	border: 1px #bbb solid;
+	box-shadow: 0px 0px 10px 0px #ccc;
+}
+
 div.Navigation {
 	width: 620px;
 	height: 20px;
@@ -81,4 +102,21 @@ div.Picture {
     height: 200px;
     float: right;
     transform: rotate(20deg);
+}
+div.PicturePhP {
+    background: url('../images/php-myql.png') no-repeat;
+    background-size: 230px 140px;
+    width: 230px;
+    height: 140px;
+    transform: rotate(-10deg);
+    float: left;
+}
+
+div.PictureHTML {
+    background: url('../images/html.png') no-repeat;
+    background-size: 230px 140px;
+    width: 230px;
+    height: 140px;
+    padding-right: 40px;
+    float: right;
 }
